@@ -16,16 +16,18 @@
 3. 使用过程中如果需要关闭Log，执行以下命令。
 
 	```
-adb shell
-echo "-s 0" > /data/tmp/log.txt
-```
+	adb shell
+	echo "-s 0" > /data/tmp/log.txt
+	```
 
 	同样的，打开Log需执行：
 
+
 	```
-adb shell
-echo "-s 1" > /data/tmp/log.txt
-```
+	adb shell
+	echo "-s 1" > /data/tmp/log.txt
+	```
+	
 4. 使用过程中如需定制Log内容，可修改LogUtils.java，修改后置于根目录即可。
 
 
